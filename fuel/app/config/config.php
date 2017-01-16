@@ -275,6 +275,7 @@ return array(
         'packages'  => array(
              'orm',
              'auth',
+             'fuelpkg',
         ),
 
         /**
@@ -310,7 +311,7 @@ return array(
          * add it like 'validation' => 'forms'.
          * If you don't want the lang in a group use null as groupname.
          */
-        'language'  => array('common'),
+        'language'  => array('common', 'selector'),
     ),
 
 );
